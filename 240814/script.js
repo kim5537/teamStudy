@@ -8,3 +8,4 @@ const n04 = (num1 / num2).toFixed(2);
 const n05 = num1 % num2;
 
 console.log(`${n01},${n02},${n03},${n04},${n05}`);
+console.log(num1 + num2, num1 - num2, num1 * num2);
