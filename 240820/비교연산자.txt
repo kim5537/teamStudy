@@ -1,0 +1,32 @@
+const a = 10;
+const b = 20;
+const c = 10;
+const f = "20";
+let result;
+
+
+result = a > b;  
+console.log(result);false
+
+result = a < b; 
+10 <20
+console.log(result); true
+
+result = a <= b;
+console.log(result); false  ==> 크니까 true
+
+
+result = a >= c;
+console.log(result); true
+
+
+result = b == f;
+console.log(result); true
+
+
+result = a != b;
+console.log(result); true
+
+
+result = b === f;
+console.log(result); false

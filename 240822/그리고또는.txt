@@ -1,0 +1,40 @@
+const a = 10;
+const b = 20;
+const m = 30;
+const n = 40;
+let result;
+
+
+result = a > b || b >= m || m > n;
+10>20 ||  20>= 30 || 30>40
+console.log(result); >> nn
+
+
+result = a > b || b >= m || m <= n;
+10>20 || 20>=30 || 30<=40
+console.log(result); ==> 00
+
+result = a <= b && b >= m && m <= n;
+result = 10 <= 20 &&20 >=30 && 30 <=40;
+console.log(result); >>nn
+
+result = 10 <= 20 && 20 <=30 && 30 <= 40; 
+console.log(result);>>00
+
+result = !(10 > 20); >> 00
+console.log(result);
+
+답 >
+false||false || false
+result =false
+
+false || false || true
+result =true
+
+true&&false &&  true;
+result =false
+
+true&& true&& true; 
+result =true
+
+true = true
